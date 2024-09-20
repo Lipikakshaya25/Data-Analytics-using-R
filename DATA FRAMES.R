@@ -1,0 +1,10 @@
+?data.frame
+uid=c(1,2,3,4,NA)
+uname=c('sjb','kristhu','jain','christ','msrit')
+strength=c(45,45,90,76,57)
+result=c(98,90,89,76,65)
+location=c("soladevanahalli","yelahanka","hebbal","kolar","yeshwanthpur")
+uni_data=data.frame("id"=uid,"name"=uname,strength,result,location)
+print(uni_data)
+str(uni_data)
+summary(uni_data)
